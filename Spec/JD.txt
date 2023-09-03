@@ -1,0 +1,70 @@
+Hi Marian.
+
+
+
+Ok, so this new python app, will consist of a main dashboard that shows all current and recent taxi jobs.Here is a screenshot of my existing excel worjsheet, I'm hoping you can copy:
+
+
+So currently, I get jobs coming to me via whatsapp, Email and text message, Then I work out the prive msnuslly snd message the customer back, if they agree, then I will go head and book a car for them. Then I add the job to this sheet by clicking new job button. Then this comes up:
+
+
+Once I click save, then that job I just added gets added to the bottom of the sheet.
+
+
+
+Now let's talk about what I need from you:
+
+
+
+I need a super fast loading application, which is responsive to any screen size, so no matter oif I'm using an ipad or desktop, it will always work smoothly. the app, I think should be loaded to AWS.
+
+
+
+So there will be a few users:
+
+
+
+1) Me (super admin)
+2) Customers
+3) Drivers
+
+
+
+So for me, when I login, I need to see the main data screens first:
+
+thumb_Screenshot_20230803_013318_Edge.jpg 
+
+Then there will be anoyher tab that says dashboard, this screen will show all info as below:
+
+
+On the dashboard, I can add a new job if I wish. I can then offer it to one specific driver or a group of drivers (pre defined group).
+
+
+
+For customers, I will create an account for them. no customer or driver can create their own account. When I create a new account the customer receives an introductory email, inviting them to complete their profile and add payment details.
+
+
+
+Pqyment details will include 2 api's 1) Stripe (for credit card payments and 2) super payments (for bank account settlement). Once their profile is complete, they will then have the option to read and agree to terms & conditions. Cutomers can also add a new job here on the platform. For this, I will need a booking platform similar to the one found at ichauffeur.co.uk. This booking screen shows vehicle photos and prices etc. Anyway, if a customer adds a new booking to this app, it will show on my dashboard, under a separate section of new bookings received. I can view them and then offer the job to one specific driver or a group of drivers.
+
+
+
+The driver will have to download this webapp to their mobile phone, in order to receive notifications. Once I offer a job to a driver, the driver will get a notification and can read it with all relevant details, then can press thre buttons to accept or decline. Once a driver accepts, then the customer is notified, but the custimer will not receive the drivers mobile phone number, fort phone calls we will use a voip api called twillio. So the customer will be notified of drivers name and badge photo and vehicle details.
+
+
+
+If we have a situation where A driver accepts a job, then later declines, then that driver will be fined £100 cancellation fee. The customer will be notified that there was a problem and that the assigned driver can no longer do the job and a new driver will be assigned shortly. I will need to see any bookings that the driver declined after acceptance, on my dashboard plus notofication to me.
+
+Then for customers, they will be added by me. A new customer will have to fill 9utvan enquiry form to get a price. This enquiry form will be in the website. For my existing customers, I will create their profile. Once I do this, they will receive an introductory email asking them to complete their profile and payment info. For payments, weceill have two options: 1) Stripe (for credit cards 2) super payments for bank account settlement - super payments does not charge a fee.
+
+
+
+Customers can also book a journey - I will explain more on this section later.
+
+
+
+Customers can also view their last 6 invoices.
+
+
+
+Wecl won't have any tracking in this application, unless you can develop mobile (android & iOS) apps. Can you develop them?
